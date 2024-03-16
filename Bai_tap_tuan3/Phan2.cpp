@@ -34,8 +34,9 @@ int main()
     Point c;
     cin>>c.x>>c.y;
     cout<<tester.contains(c)<<endl;
-    const Ship ship1;
+    Ship ship1;
     ship1.toaDo.x=c.x;ship1.toaDo.y=c.y;
     ship1.id="MK2731";
-    display(ship1);}
+    display(ship1);
+}
 
